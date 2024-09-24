@@ -68,6 +68,3 @@ Usado para testes automatizados e unitários, onde você verifica funcionalidade
 | Homologação              | `gestao_clientes_homologacao`       |
 | Produção                 | `gestao_clientes_producao`          |
 | Testes Unitários         | `gestao_clientes_testes`            |
-
----
-
