@@ -64,22 +64,26 @@ git log --oneline
 
 **Passo 1**
 ##### *Exibe o status atual do repositório, verificar se não contém algum erro.*
-```bash git status
+```bash 
+git status
 ```
 
 **Passo 2**
 ##### *Lista todas as branches locais no repositório.*
-```bash git branch
+```bash 
+git branch
 ```
 
 **Passo 3**
 ##### *Cria uma nova branch com o nome especificado.*
-```bash git branch guero
+```bash 
+git branch guero
 ```
 
 **Passo 4**
 ##### *Muda para a branch especificada.*
-```bash git checkout guero
+```bash 
+git checkout guero
 ```
 
 **Passo 5**
@@ -95,11 +99,15 @@ git push --set-upstream origin guero
 
 **Passo 1**
 ##### *Exibe o status atual do repositório para verificar se não há erros e em qual branch você está no momento.*
-#### `git status`
+```bash 
+git status
+```
 
 **Passo 2**
 ##### *Certifique-se de que você está na branch na qual deseja aplicar o merge. Por exemplo, se você deseja mesclar as alterações da branch `tiago` na branch `main`, primeiro verifique se está na branch `main`.*
-#### `git merge tiago`
+```bash 
+git merge tiago
+```
 *Nota: Este comando mesclará as alterações da branch `tiago` na branch atual (`main` neste exemplo). É crucial garantir que você esteja na branch correta antes de executar o merge para evitar conflitos ou mesclagens indesejadas.*
 
 #### *Branch mesclada.*
@@ -145,3 +153,4 @@ git push --set-upstream origin guero
 - *Para utilizar o método "Ort", é necessário ter uma versão recente do Git e configurá-lo com o seguinte comando:*
 ```bash
 git config --global merge.ort true
+```
