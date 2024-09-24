@@ -5,7 +5,7 @@
 git status
 ```
 
-##### *Lista todas as branches locais no repositório. A branch atual é indicada com um asterisco (*).*
+##### *Lista todas as branches locais no repositório. A branch atual é indicada com um asterisco (**).*
 ```bash 
 git branch
 ```
