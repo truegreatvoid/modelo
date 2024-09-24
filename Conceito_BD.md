@@ -16,7 +16,6 @@ Esse banco é utilizado pelos desenvolvedores durante o desenvolvimento da aplic
   - `gestao_clientes_desenvolvimento`
   - `desenvolvimento_gestao_clientes`
 
----
 
 ## :white_check_mark: Banco de Dados de Homologação (Staging)
 
@@ -32,7 +31,6 @@ Esse banco é usado para testar a aplicação antes de ser colocada em produçã
   - `gestao_clientes_homologacao`
   - `homologacao_gestao_clientes`
 
----
 
 ## :lock: Banco de Dados de Produção
 
@@ -48,7 +46,6 @@ Esse banco armazena os dados reais de usuários e operações em tempo real. Ele
   - `gestao_clientes_producao`
   - `producao_gestao_clientes`
 
----
 
 ## :test_tube: Outros Bancos Opcionais
 
