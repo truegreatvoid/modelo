@@ -1,39 +1,41 @@
 ## Comandos
 
-```bash `git status`
+```bash 
+`git status`
+```
 ##### *Exibe o status atual do repositório, mostrando as mudanças que foram feitas, arquivos que foram adicionados ao stage, e o estado das branches.*
 
-```bash `git branch`
+- #### `git branch`
 ##### *Lista todas as branches locais no repositório. A branch atual é indicada com um asterisco (*).*
 
-```bash `git branch <nome-da-branch>`
+- #### `git branch <nome-da-branch>`
 ##### *Cria uma nova branch com o nome especificado.*
 
-```bash `git checkout <nome-da-branch>`
+- #### `git checkout <nome-da-branch>`
 ##### *Muda para a branch especificada. Este comando atualiza o diretório de trabalho com os arquivos da branch escolhida.*
 
-```bash `git checkout -b <nome-da-branch>`
+- #### `git checkout -b <nome-da-branch>`
 ##### *Cria uma nova branch e muda automaticamente para ela.*
 
-```bash `git merge <nome-da-branch>`
+- #### `git merge <nome-da-branch>`
 ##### *Mescla as mudanças da branch especificada na branch atual.*
 
-```bash `git branch -d <nome-da-branch>`
+- #### `git branch -d <nome-da-branch>`
 ##### *Deleta a branch especificada. O Git não permitirá deletar a branch atual.*
 
-```bash `git branch -D <nome-da-branch>`
+- #### `git branch -D <nome-da-branch>`
 ##### *Força a deleção da branch, mesmo que tenha mudanças não mescladas.*
 
-```bash `git push origin <nome-da-branch>`
+- #### `git push origin <nome-da-branch>`
 ##### *Envia a branch especificada para o repositório remoto.*
 
-```bash `git pull origin <nome-da-branch>`
+- #### `git pull origin <nome-da-branch>`
 ##### *Atualiza a branch atual com as últimas mudanças do repositório remoto.*
 
-```bash `git push --set-upstream origin <nome-da-branch>`
+- #### `git push --set-upstream origin <nome-da-branch>`
 *Envia a branch especificada para o repositório remoto e define a branch remota como "upstream" para a branch local. Isso significa que, a partir desse momento, o Git saberá para qual branch remota enviar as futuras alterações (usando `git push`) e de qual branch remota buscar atualizações (usando `git pull`) sem precisar especificar o nome da branch remota novamente.*
 
-```bash `git log --oneline`
+- #### `git log --oneline`
 ##### *Exibe o histórico de commits da branch atual em uma linha por commit, mostrando o hash do commit e a mensagem associada. Este formato compacto é útil para obter uma visão geral rápida do histórico de commits.*
 
 ## Criando uma Branch
