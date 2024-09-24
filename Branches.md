@@ -1,7 +1,7 @@
 ## Comandos
 
 ```bash 
-`git status`
+git status
 ```
 ##### *Exibe o status atual do repositório, mostrando as mudanças que foram feitas, arquivos que foram adicionados ao stage, e o estado das branches.*
 
