@@ -5,60 +5,88 @@ git status
 ```
 ##### *Exibe o status atual do repositório, mostrando as mudanças que foram feitas, arquivos que foram adicionados ao stage, e o estado das branches.*
 
-- #### `git branch`
+```bash 
+git branch
+```
 ##### *Lista todas as branches locais no repositório. A branch atual é indicada com um asterisco (*).*
 
-- #### `git branch <nome-da-branch>`
+```bash 
+git branch <nome-da-branch>
+```
 ##### *Cria uma nova branch com o nome especificado.*
 
-- #### `git checkout <nome-da-branch>`
+```bash 
+git checkout <nome-da-branch>
+```
 ##### *Muda para a branch especificada. Este comando atualiza o diretório de trabalho com os arquivos da branch escolhida.*
 
-- #### `git checkout -b <nome-da-branch>`
+```bash 
+git checkout -b <nome-da-branch>
+```
 ##### *Cria uma nova branch e muda automaticamente para ela.*
 
-- #### `git merge <nome-da-branch>`
+```bash 
+git merge <nome-da-branch>
+```
 ##### *Mescla as mudanças da branch especificada na branch atual.*
 
-- #### `git branch -d <nome-da-branch>`
+```bash 
+git branch -d <nome-da-branch>
+```
 ##### *Deleta a branch especificada. O Git não permitirá deletar a branch atual.*
 
-- #### `git branch -D <nome-da-branch>`
+```bash 
+git branch -D <nome-da-branch>
+```
 ##### *Força a deleção da branch, mesmo que tenha mudanças não mescladas.*
 
-- #### `git push origin <nome-da-branch>`
+```bash 
+git push origin <nome-da-branch>
+```
 ##### *Envia a branch especificada para o repositório remoto.*
 
-- #### `git pull origin <nome-da-branch>`
+```bash 
+git pull origin <nome-da-branch>
+```
 ##### *Atualiza a branch atual com as últimas mudanças do repositório remoto.*
 
-- #### `git push --set-upstream origin <nome-da-branch>`
+```bash 
+git push --set-upstream origin <nome-da-branch>
+```
 *Envia a branch especificada para o repositório remoto e define a branch remota como "upstream" para a branch local. Isso significa que, a partir desse momento, o Git saberá para qual branch remota enviar as futuras alterações (usando `git push`) e de qual branch remota buscar atualizações (usando `git pull`) sem precisar especificar o nome da branch remota novamente.*
 
-- #### `git log --oneline`
+```bash 
+git log --oneline
+```
 ##### *Exibe o histórico de commits da branch atual em uma linha por commit, mostrando o hash do commit e a mensagem associada. Este formato compacto é útil para obter uma visão geral rápida do histórico de commits.*
 
 ## Criando uma Branch
 
 **Passo 1**
 ##### *Exibe o status atual do repositório, verificar se não contém algum erro.*
-#### `git status`
+```bash git status
+```
 
 **Passo 2**
 ##### *Lista todas as branches locais no repositório.*
-#### `git branch`
+```bash git branch
+```
 
 **Passo 3**
 ##### *Cria uma nova branch com o nome especificado.*
-#### `git branch guero`
+```bash git branch guero
+```
 
 **Passo 4**
 ##### *Muda para a branch especificada.*
-#### `git checkout guero`
+```bash git checkout guero
+```
 
 **Passo 5**
 ##### *Subir a branch em questão para o repositório remoto (GitHub).*
-#### `git push --set-upstream origin guero`
+```bash
+git push --set-upstream origin guero
+```
 *Nota: Este comando não apenas envia a branch `guero` para o repositório remoto, mas também configura essa branch remota como a "upstream" para a branch local. Isso significa que, a partir de agora, você poderá usar `git push` e `git pull` sem precisar especificar o repositório e a branch, facilitando o gerenciamento de versões. Se você não utilizar o `--set-upstream`, a branch que acabou de criar ficará apenas local e não será sincronizada automaticamente com o repositório remoto.*
 
 #### *Branch criada.*
